@@ -1,0 +1,13 @@
+<%-include("partials/header")-%>
+<div class="textWraper">
+<form action="/compose" method="post">
+    <h1>Compose</h1>
+    <p>Title</p>
+<input type="text" class="form-control" name="title" style="width: 97%;">
+    <p>Post</p>
+<textarea type="text"  class="form-control post" name="postt" cols="40" rows="5" style="width: 97%;"></textarea>
+<br>
+<button type="submit" class="btn btn-primary">Publish</button>
+</form> 
+</div>
+<%-include("partials/footer")-%> 

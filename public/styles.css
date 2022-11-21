@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+.nav-link:hover{
+color: blue;
+}
+.navdiv{
+    padding: 17px 90px;
+}
+.navnav{
+    margin-bottom: 25px;
+}
+.textWraper{
+    margin: 0 90px;
+    flex-grow: 1;
+}
+p{
+    width:97%;
+    text-align: left;
+    overflow: hidden;
+    
+}
+.nav-item{
+    padding: 0 10px;
+}
+.navbar-brand{
+    color: #656770;
+}
+
+#more {
+display: none;
+}
+
+.footer-padding {
+    color: white;
+    text-align: center;
+    margin: 0 auto 0;
+    padding: 10px 0 10px;
+    background-color: #4c4e5a;
+    width: 100%;
+  }
+  .social-btn{
+    font-size: 1.5rem;
+    margin: 2px 7px;
+    color:rgb(173, 171, 171);
+  }
+  .last-p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: auto auto;
+  }
+  .face-b:hover{
+    color: rgb(72, 124, 208);
+  }
+  .insta-b:hover{
+    color:rgb(225, 0, 255);
+  }
+  .link-b:hover{
+    color:rgb(95, 89, 219);
+  }
+  .email-b:hover{
+    color:rgb(255, 0, 0);
+  }
+  .last-p:hover{
+    color:rgb(173, 171, 171);
+  }
